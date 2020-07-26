@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative '../config/environment'
+
+puts "Environment: #{Application.environment}"
+puts 'Started'
+puts 'Use Ctrl-C to stop'
+
+begin
+  loop { sleep 3 }
+rescue Interrupt
+  puts 'Stopped'
+end

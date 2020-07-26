@@ -1,0 +1,11 @@
+app:
+  name: rpsls_sidejobs
+db:
+  adapter: postgresql
+  host: localhost
+  port: 5432
+  user:
+  password:
+  database: rpsls
+rabbitmq:
+  consumer_pool: 10

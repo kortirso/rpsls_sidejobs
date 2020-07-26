@@ -1,0 +1,3 @@
+db:
+  database: rpsls_sidejobs_test
+  max_connections: 1
