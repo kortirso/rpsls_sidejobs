@@ -17,9 +17,6 @@ gem 'fast_jsonapi', '~> 1.5'
 # Config
 gem 'config', '~> 2.2.1'
 
-# activerecord tasks for schema dump
-gem 'activerecord'
-
 # rabbitmq
 gem 'bunny', '~> 2.15.0'
 
