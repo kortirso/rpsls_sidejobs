@@ -11,9 +11,6 @@ gem 'rake', '~> 13.0.1'
 gem 'pg', '~> 1.2.3'
 gem 'sequel', '~> 5.32.0'
 
-# serialization
-gem 'fast_jsonapi', '~> 1.5'
-
 # Config
 gem 'config', '~> 2.2.1'
 
