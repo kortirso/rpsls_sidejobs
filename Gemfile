@@ -17,6 +17,9 @@ gem 'config', '~> 2.2.1'
 # rabbitmq
 gem 'bunny', '~> 2.15.0'
 
+# dry-initializer
+gem 'dry-initializer', '~> 3.0.3'
+
 group :development do
   gem 'rubocop', '~> 0.85.0', require: false
   gem 'rubocop-performance', require: false

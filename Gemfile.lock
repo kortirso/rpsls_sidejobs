@@ -113,6 +113,7 @@ DEPENDENCIES
   bunny (~> 2.15.0)
   config (~> 2.2.1)
   database_cleaner-sequel (~> 1.8.0)
+  dry-initializer (~> 3.0.3)
   factory_bot (~> 5.2.0)
   pg (~> 1.2.3)
   rake (~> 13.0.1)
